@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="DapperExtensionsAspNetCore" Version="1.0.0" />
+    <PackageReference Include="FluentValidation" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NASys.Core.Domain.Core\NASys.Core.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>

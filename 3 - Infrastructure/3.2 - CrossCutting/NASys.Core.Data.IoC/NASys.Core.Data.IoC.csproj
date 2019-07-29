@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1 - Application\NASys.Core.UsersApi.Application\NASys.Core.UsersApi.Application.csproj" />
+    <ProjectReference Include="..\..\..\2 - Domain\NASys.Core.Domain.Core\NASys.Core.Domain.Core.csproj" />
+    <ProjectReference Include="..\..\..\2 - Domain\NASys.Core.Domain\NASys.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\3.1 - Data\NASys.Core.Data.Context\NASys.Core.Data.Context.csproj" />
+    <ProjectReference Include="..\..\3.1 - Data\NASys.Core.Data.Repository\NASys.Core.Data.Repository.csproj" />
+    <ProjectReference Include="..\NASys.Core.CrossCutting.Bus\NASys.Core.CrossCutting.Bus.csproj" />
+  </ItemGroup>
+
+</Project>
