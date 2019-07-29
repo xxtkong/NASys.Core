@@ -14,6 +14,7 @@ namespace NASys.Core.UsersApi
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
             var host = CreateWebHostBuilder(args).Build();
